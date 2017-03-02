@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>adapter</OriginalElement>
+  <nodes>
+    <node x="155.0" y="0.0">adapter.Adaptee</node>
+    <node x="65.5" y="104.0">adapter.Adapter</node>
+    <node x="0.0" y="0.0">adapter.Target</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="adapter.Adapter" target="adapter.Adaptee">
+      <point x="45.5" y="-39.0" />
+      <point x="202.0" y="79.0" />
+      <point x="245.5" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="adapter.Adapter" target="adapter.Target">
+      <point x="-45.5" y="-39.0" />
+      <point x="111.0" y="79.0" />
+      <point x="67.5" y="79.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.2999999999999998" x="207.0" y="132.0" />
+  <SelectedNodes>
+    <node>adapter.Adapter</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
