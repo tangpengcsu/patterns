@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>observer</OriginalElement>
+  <nodes>
+    <node x="307.0" y="139.0">observer.PayObserver</node>
+    <node x="695.0" y="139.0">observer.RelationObserver</node>
+    <node x="63.5" y="302.0">observer.OrderSubject</node>
+    <node x="501.0" y="139.0">observer.WareHouseObserver</node>
+    <node x="0.0" y="104.0">observer.Subject</node>
+    <node x="404.0" y="0.0">observer.Observer</node>
+    <node x="421.5" y="454.0">observer.Client</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="observer.Client" target="observer.WareHouseObserver">
+      <point x="17.375" y="-27.0" />
+      <point x="508.375" y="424.0" />
+      <point x="588.0" y="424.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="observer.Client" target="observer.RelationObserver">
+      <point x="52.125" y="-27.0" />
+      <point x="543.125" y="434.0" />
+      <point x="782.0" y="434.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="observer.Client" target="observer.OrderSubject">
+      <point x="-52.125" y="-27.0" />
+      <point x="438.875" y="434.0" />
+      <point x="143.5" y="434.0" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="observer.PayObserver" target="observer.Observer">
+      <point x="0.0" y="-39.0" />
+      <point x="394.0" y="84.0" />
+      <point x="469.25" y="84.0" />
+      <point x="-21.75" y="27.0" />
+    </edge>
+    <edge source="observer.OrderSubject" target="observer.Subject">
+      <point x="0.0" y="-51.0" />
+      <point x="0.0" y="74.0" />
+    </edge>
+    <edge source="observer.WareHouseObserver" target="observer.Observer">
+      <point x="0.0" y="-39.0" />
+      <point x="588.0" y="84.0" />
+      <point x="512.75" y="84.0" />
+      <point x="21.75" y="27.0" />
+    </edge>
+    <edge source="observer.Client" target="observer.PayObserver">
+      <point x="-17.375" y="-27.0" />
+      <point x="473.625" y="424.0" />
+      <point x="394.0" y="424.0" />
+      <point x="0.0" y="39.0" />
+    </edge>
+    <edge source="observer.Subject" target="observer.Observer">
+      <point x="0.0" y="-74.0" />
+      <point x="143.5" y="74.0" />
+      <point x="425.75" y="74.0" />
+      <point x="-65.25" y="27.0" />
+    </edge>
+    <edge source="observer.RelationObserver" target="observer.Observer">
+      <point x="0.0" y="-39.0" />
+      <point x="782.0" y="74.0" />
+      <point x="556.25" y="74.0" />
+      <point x="65.25" y="27.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="527.4444444444443" y="285.0" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

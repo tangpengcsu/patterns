@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>facade</OriginalElement>
+  <nodes>
+    <node x="356.0" y="0.0">facade.XiHuApartment</node>
+    <node x="693.0" y="0.0">facade.XiXiApartment</node>
+    <node x="370.5" y="184.0">facade.MediumFacade</node>
+    <node x="446.0" y="382.0">facade.Client</node>
+    <node x="0.0" y="0.0">facade.CuiYuanApartment</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="facade.MediumFacade" target="facade.XiXiApartment">
+      <point x="72.0" y="-74.0" />
+      <point x="586.5" y="154.0" />
+      <point x="771.0" y="154.0" />
+      <point x="-78.0" y="62.0" />
+    </edge>
+    <edge source="facade.MediumFacade" target="facade.XiHuApartment">
+      <point x="-24.0" y="-74.0" />
+      <point x="490.5" y="144.0" />
+      <point x="435.25" y="144.0" />
+      <point x="-79.25" y="62.0" />
+    </edge>
+    <edge source="facade.MediumFacade" target="facade.CuiYuanApartment">
+      <point x="-120.0" y="-74.0" />
+      <point x="394.5" y="164.0" />
+      <point x="84.0" y="164.0" />
+      <point x="-84.0" y="62.0" />
+    </edge>
+    <edge source="facade.Client" target="facade.MediumFacade">
+      <point x="0.0" y="-27.0" />
+      <point x="0.0" y="74.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="503.0" y="218.0" />
+  <SelectedNodes>
+    <node>facade.XiHuApartment</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Fields</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
