@@ -6,7 +6,7 @@ package builder;
  * @Date 2017-3-2
  */
 public class OrbitalModule {
-   private String description;
+    private String description;
 
     public OrbitalModule(String description) {
         this.description = description;

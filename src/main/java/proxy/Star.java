@@ -7,6 +7,8 @@ package proxy;
  */
 public interface Star {
     void signContract();
+
     void singSong();
+
     void collectMoney();
 }

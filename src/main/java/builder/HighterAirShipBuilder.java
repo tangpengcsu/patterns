@@ -5,7 +5,7 @@ package builder;
  * @Author TangPeng
  * @Date 2017-3-2
  */
-public class HighterAirShipBuilder implements AirShipbuilder{
+public class HighterAirShipBuilder implements AirShipbuilder {
     private AirShip airShip = new AirShip();
 
     public void builtEngine() {

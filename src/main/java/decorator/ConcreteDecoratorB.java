@@ -5,7 +5,7 @@ package decorator;
  * @Author TangPeng
  * @Date 2017-3-2
  */
-public class ConcreteDecoratorB extends Decorator{
+public class ConcreteDecoratorB extends Decorator {
     public ConcreteDecoratorB(Component component) {
         super(component);
     }

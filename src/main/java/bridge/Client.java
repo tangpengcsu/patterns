@@ -1,4 +1,4 @@
-package facade;
+package bridge;
 
 import org.junit.Test;
 
@@ -9,8 +9,8 @@ import org.junit.Test;
  */
 public class Client {
     @Test
-    public void client() {
-        MediumFacade facade = new MediumFacade();
-        facade.rentingHouse(900);
+    public void test(){
+        Computer computer = new Desktop(new Dell());
+        computer.sale();
     }
 }

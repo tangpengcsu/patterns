@@ -9,7 +9,7 @@ import org.junit.Test;
  */
 public class Client {
     @Test
-    public void Client(){
+    public void Client() {
         AirShipbuilder lowBuilder = new LowerAirShipBuilder();
 
         AirShipDirector.construct(lowBuilder);

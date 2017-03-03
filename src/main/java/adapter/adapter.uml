@@ -10,8 +10,10 @@
   <notes />
   <edges>
     <edge source="adapter.Adapter" target="adapter.Adaptee">
-      <point x="0.0" y="0.0" />
-      <point x="0.0" y="0.0" />
+      <point x="48.75" y="-51.0" />
+      <point x="205.25" y="79.0" />
+      <point x="245.5" y="79.0" />
+      <point x="0.0" y="27.0" />
     </edge>
     <edge source="adapter.Adapter" target="adapter.Target">
       <point x="-48.75" y="-51.0" />

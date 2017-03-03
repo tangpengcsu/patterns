@@ -13,7 +13,7 @@ public class Decorator implements Component {
         this.component = component;
     }
 
-    public void doSomething(){
+    public void doSomething() {
         this.component.doSomething();
     }
 }

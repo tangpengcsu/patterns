@@ -5,7 +5,7 @@ package proxy;
  * @Author TangPeng
  * @Date 2017-3-2
  */
-public class RealStar implements Star{
+public class RealStar implements Star {
     public void signContract() {
 
     }

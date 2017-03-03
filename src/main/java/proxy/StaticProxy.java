@@ -5,7 +5,7 @@ package proxy;
  * @Author TangPeng
  * @Date 2017-3-2
  */
-public class StaticProxy implements Star{
+public class StaticProxy implements Star {
     private Star star;
 
     public StaticProxy(Star star) {

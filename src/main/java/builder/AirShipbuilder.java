@@ -7,7 +7,10 @@ package builder;
  */
 public interface AirShipbuilder {
     void builtEngine();
+
     void builtEscapeTower();
+
     void builtOrbitalModule();
+
     AirShip getResult();
 }

@@ -3,45 +3,45 @@
   <ID>JAVA</ID>
   <OriginalElement>proxy</OriginalElement>
   <nodes>
-    <node x="44.4375" y="0.0">proxy.Star</node>
-    <node x="203.0" y="174.0">proxy.RealStar</node>
-    <node x="0.0" y="150.0">proxy.StaticProxy</node>
-    <node x="119.21875" y="348.0">proxy.Client</node>
+    <node x="158.5625" y="0.0">proxy.Star</node>
+    <node x="0.0" y="174.0">proxy.RealStar</node>
+    <node x="224.0" y="150.0">proxy.StaticProxy</node>
+    <node x="148.78125" y="348.0">proxy.Client</node>
   </nodes>
   <notes />
   <edges>
     <edge source="proxy.Client" target="proxy.StaticProxy">
-      <point x="-34.75" y="-27.0" />
-      <point x="153.96875" y="323.0" />
-      <point x="91.5" y="323.0" />
+      <point x="34.75" y="-27.0" />
+      <point x="253.03125" y="323.0" />
+      <point x="315.5" y="323.0" />
       <point x="0.0" y="74.0" />
     </edge>
     <edge source="proxy.StaticProxy" target="proxy.Star">
       <point x="45.75" y="-74.0" />
-      <point x="137.25" y="125.0" />
-      <point x="146.4375" y="125.0" />
-      <point x="0.0" y="50.0" />
+      <point x="361.25" y="125.0" />
+      <point x="328.5625" y="125.0" />
+      <point x="68.0" y="50.0" />
     </edge>
     <edge source="proxy.RealStar" target="proxy.Star">
       <point x="0.0" y="-50.0" />
-      <point x="305.0" y="125.0" />
-      <point x="214.4375" y="125.0" />
-      <point x="68.0" y="50.0" />
+      <point x="102.0" y="125.0" />
+      <point x="192.5625" y="125.0" />
+      <point x="-68.0" y="50.0" />
     </edge>
     <edge source="proxy.Client" target="proxy.RealStar">
-      <point x="34.75" y="-27.0" />
-      <point x="223.46875" y="323.0" />
-      <point x="305.0" y="323.0" />
+      <point x="-34.75" y="-27.0" />
+      <point x="183.53125" y="323.0" />
+      <point x="102.0" y="323.0" />
       <point x="0.0" y="50.0" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="1.0" x="284.5" y="179.5" />
+  <settings layout="Hierarchic Group" zoom="1.0" x="285.0" y="180.0" />
   <SelectedNodes />
   <Categories>
+    <Category>Inner Classes</Category>
     <Category>Constructors</Category>
     <Category>Properties</Category>
     <Category>Methods</Category>
-    <Category>Inner Classes</Category>
     <Category>Fields</Category>
   </Categories>
   <SCOPE>All</SCOPE>
